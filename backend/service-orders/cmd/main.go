@@ -4,11 +4,11 @@ import (
 	"log"
 	"net/http"
 
-	"service-orders/internal/handlers"
+	"github.com/GabrielASF2/encantto-web/backend/service-orders/internal/handlers"
 
-	"github.com/GabrielASF2/encantto-web/shared/config"
-	"github.com/GabrielASF2/encantto-web/shared/db"
-	"github.com/GabrielASF2/encantto-web/shared/logger"
+	"github.com/GabrielASF2/encantto-web/backend/shared/config"
+	"github.com/GabrielASF2/encantto-web/backend/shared/db"
+	"github.com/GabrielASF2/encantto-web/backend/shared/logger"
 	"github.com/gorilla/mux"
 )
 

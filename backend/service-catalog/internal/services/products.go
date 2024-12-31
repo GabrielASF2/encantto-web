@@ -2,7 +2,8 @@ package services
 
 import (
 	"database/sql"
-	"service-catalog/internal/models"
+
+	"github.com/GabrielASF2/encantto-web/backend/service-catalog/internal/models"
 )
 
 type ProductService struct {

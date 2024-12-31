@@ -4,8 +4,9 @@ import (
 	"database/sql"
 	"encoding/json"
 	"net/http"
-	"service-orders/internal/models"
-	"service-orders/internal/services"
+
+	"github.com/GabrielASF2/encantto-web/backend/service-orders/internal/models"
+	"github.com/GabrielASF2/encantto-web/backend/service-orders/internal/services"
 
 	"github.com/gorilla/mux"
 )

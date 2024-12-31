@@ -3,7 +3,8 @@ package services
 import (
 	"database/sql"
 	"encoding/json"
-	"service-orders/internal/models"
+
+	"github.com/GabrielASF2/encantto-web/backend/service-orders/internal/models"
 )
 
 type OrderService struct {

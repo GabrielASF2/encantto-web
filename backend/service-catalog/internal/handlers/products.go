@@ -4,13 +4,14 @@ import (
 	"database/sql"
 	"encoding/json"
 	"net/http"
-	"service-catalog/internal/models"
-	"service-catalog/internal/services"
+
+	"github.com/GabrielASF2/encantto-web/backend/service-catalog/internal/models"
+	"github.com/GabrielASF2/encantto-web/backend/service-catalog/internal/services"
 
 	"github.com/gorilla/mux"
 )
 
-func RegisterProductRoutes(router *mux.Router, db *sql.DB) {
+func RegisterCatalogRoutes(router *mux.Router, db *sql.DB) {
 	service := services.ProductService{DB: db}
 
 	router.HandleFunc("/products", func(w http.ResponseWriter, r *http.Request) {
