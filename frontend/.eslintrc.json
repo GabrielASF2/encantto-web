@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "@next/next/no-img-element": "off",  // Desativa o aviso sobre o uso de <img>
+    "@typescript-eslint/no-unused-vars": "off"  // Desativa o erro de variáveis não utilizadas
+  }
+}
